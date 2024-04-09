@@ -12,6 +12,7 @@ plugin: PluginHookData = {
     "package_name": "mov-cli-films", # Required for the plugin update checker.
     "scrapers": {
         "DEFAULT": VidSrcMeScraper,
+        "vidsrcto": VidSrcToScraper,
         "vidsrcme": VidSrcMeScraper
     }
 }
